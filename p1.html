@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Product Page - Kbeauty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="product page.css">
+</head>
+
+<body>
+    <section>
+        <div class="container flex">
+            <div class="left">
+                <div class="main_image">
+                    <img src="lip gloss.jpg" alt="" class="slide">
+                </div>
+            </div>
+            <div class="option flex">
+                <img src="lip gloss.jpg" onclick="changeImage('lip gloss.jpg')">
+                <img src="l.jpg" onclick="changeImage('l.jpg')">
+                <img src="l1.jpg" onclick="changeImage('l1.jpg')">
+                <img src="l2.jpg" onclick="changeImage('l2.jpg')">
+                <img src="l3.jpg" onclick="changeImage('l3.jpg')">
+            </div>
+            <div class="right">
+                <h2>Little Bear Crystal Frozen Strawberry Glossy Lip</h2>
+                <h4><small>Rs:</small>500</h4>
+                <p>Experience a touch of glamour with our Little Bear Crystal Frozen Strawberry Glossy Lip.
+                    This enchanting lip gloss not only enhances your natural beauty but also provides a luscious
+                    shine that lasts throughout the day.
+
+                    Key Features:
+                    <br>
+                    1. Crystal Frozen Strawberry Flavor: Indulge in the sweet and refreshing taste of frozen strawberries with every
+                    application.<br>
+                    2. High Gloss Finish: Achieve a dazzling, glossy look that adds a touch of sophistication to your lips.<br>
+                    3. Long-Lasting Formula: Our lip gloss is designed to stay vibrant and glossy, ensuring you maintain a
+                    picture-perfect pout all day long.<br>
+                    4. Little Bear Charm: Adorned with a charming Little Bear crystal, this lip gloss is as delightful to look
+                    at as it is to wear.</p>
+                <div><br>
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <h5>Number</h5>
+                <div class="add flex1">
+                <span>-</span>
+                <label>1</label>
+                <span>+</span>
+                </div>
+                <button>Add to cart</button>
+            
+
+    <script>
+       function changeImage(imgSrc) {
+            document.querySelector('.slide').src = imgSrc;
+        } 
+    </script> 
+       
+</body>
+
+</html>
